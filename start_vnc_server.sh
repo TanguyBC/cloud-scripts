@@ -18,7 +18,7 @@ echo "**************************************************************************
 echo ""
 
 # Start the server on port 5901
-/opt/TurboVNC/bin/vncserver
+/opt/TurboVNC/bin/vncserver -geometry 1920x1080
 # You will be asked to enter Password twice.
 # You will be also asked:
 #  Would you like to enter a view-only password (y/n)? n

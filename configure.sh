@@ -50,7 +50,8 @@ echo ""
 # For EC2 g3 and p3 also:
 # 2. Delete whole section ServerLayout (comment it with # symbol)
 # 3. Delete whole section Screen (comment it with # symbol)
-sudo /usr/bin/python2.7 fix_xorg_conf.py /etc/X11/xorg.conf
+#sudo /usr/bin/python2.7 fix_xorg_conf.py /etc/X11/xorg.conf
+sudo cp xorg.conf /etc/X11/
 
 # Install VirtualGL
 wget https://sourceforge.net/projects/virtualgl/files/2.5.2/virtualgl_2.5.2_amd64.deb/download -O virtualgl_2.5.2_amd64.deb
